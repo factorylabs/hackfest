@@ -1,7 +1,9 @@
 require 'rubygems'
 require 'summer'
+require 'mrtbot'
 
-class AsciiBot < Summer::Connection
+class OtherBot < Summer::Connection
+  include MrTBot
 end
 
-AsciiBot.new("irc.freenode.net")
+OtherBot.new("irc.freenode.net")
