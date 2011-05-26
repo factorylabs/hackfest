@@ -2,6 +2,12 @@ GEM
   remote: http://www.rubygems.org/
   specs:
     activesupport (3.0.7)
+    crack (0.1.8)
+    googleajax (1.0.1)
+      json (>= 1.0.0)
+    httparty (0.7.7)
+      crack (= 0.1.8)
+    json (1.5.1)
     summer (1.0.0)
 
 PLATFORMS
@@ -9,4 +15,6 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport
+  googleajax
+  httparty
   summer
